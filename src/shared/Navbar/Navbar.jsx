@@ -5,10 +5,10 @@ function Navbar() {
   const links = (
     <>
       <li>
-        <NavLink>Home</NavLink>
+        <NavLink to='/'>Home</NavLink>
       </li>
       <li>
-        <NavLink>Blogs</NavLink>
+        <NavLink to='/blogs'>Blogs</NavLink>
       </li>
       <li>
         <NavLink>About</NavLink>
