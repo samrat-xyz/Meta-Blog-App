@@ -7,13 +7,13 @@ function Banner() {
   const blogList = (
     <>
       <li className="px-3 py-1 text-sm md:text-base rounded-full bg-accent">
-        <NavLink>Home</NavLink>
+        <NavLink to='/'>Home</NavLink>
       </li>
       <li className="px-3 py-1 text-sm md:text-base rounded-full bg-accent">
-        <NavLink>Add New Blog</NavLink>
+        <NavLink to='/add-blog'>Add New Blog</NavLink>
       </li>
       <li className="px-3 py-1 text-sm md:text-base rounded-full bg-accent">
-        <NavLink>Manage Blog</NavLink>
+        <NavLink to='/manage-blogs'>Manage Blog</NavLink>
       </li>
     </>
   );
