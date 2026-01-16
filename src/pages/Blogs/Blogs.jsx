@@ -7,7 +7,7 @@ function Blogs() {
   axios.get("/blogs.json").then((data) => setBlogs(data.data));
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 w-11/12 gap-6 container mx-auto">
+    <div className="grid grid-cols-1 md:grid-cols-3 w-11/12 gap-6 container mx-auto p-3">
       {blogs.map((blog) => (
         <BlogsCard blog={blog}></BlogsCard>
       ))}
