@@ -11,10 +11,10 @@ function Navbar() {
         <NavLink to='/blogs'>Blogs</NavLink>
       </li>
       <li>
-        <NavLink>About</NavLink>
+        <NavLink to='/about'>About</NavLink>
       </li>
       <li>
-        <NavLink>Contact</NavLink>
+        <NavLink to='/contact'>Contact</NavLink>
       </li>
     </>
   );
